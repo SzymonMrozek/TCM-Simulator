@@ -19,7 +19,7 @@ class ConvolutionalEncoder{
     
 public:
     
-    ConvolutionalEncoder(int number_of_inputs, int number_of_states, std::vector<std::vector<int>>* next_stage_matrix,
+    ConvolutionalEncoder(int number_of_states, std::vector<std::vector<int>>* next_stage_matrix,
                          std::vector<std::vector<int>>* output_matrix);
     void encode(std::vector<int>* input_data_stream);
     std::vector<int>* getOutputDataStream();
