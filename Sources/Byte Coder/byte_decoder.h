@@ -34,12 +34,7 @@ private:
     
     std::vector<int>* bit_pieces_stream_;
     std::vector<char>* input_stream_;
-    const int bit_piece_size_;// number from 1 to 8 
-    
-    int* mask_;
-    int* inverse_mask_;
-
-    
+    const int bit_piece_size_;// number from 1 to 8
 };
 
 

@@ -27,12 +27,9 @@ void ByteEncoder::encode(){
     
     auto byte_indexer = 0;
     auto bits_remaining = 0;
-    
-    
+
     int mask [8] = { 1, 3, 7, 15, 31, 63, 127, 255};
-    int inverse_mask[8] = { 0b10000000, 0b11000000, 0b1110000, 0b11110000, 0b11111000, 0b11111100, 0b11111110, 0b11111111};
-    
-    
+
     auto int_value = 0;
     for(auto stream_iterator = 0; stream_iterator < input_stream_->size() - 1;){
 

@@ -1,0 +1,3 @@
+/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles/TCM_Simulator.dir
