@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/szymon/Documents/Programming/TCM-Simulator
+CMAKE_SOURCE_DIR = /Users/szymon/Documents/CPP/TCM-Simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TCM_Simulator.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/TCM_Simulator.dir/flags.make
 
 CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o: ../Sources/Baseband\ Modulator/baseband_modulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o -c "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o -c "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.cpp"
 
 CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o: ../Sources/Byte\ Coder/byte_decoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o -c "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Byte Coder/byte_decoder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o -c "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_decoder.cpp"
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Byte Coder/byte_decoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_decoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Byte Coder/byte_decoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_decoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o.provides.buil
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o: ../Sources/Byte\ Coder/byte_encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o -c "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Byte Coder/byte_encoder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o -c "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_encoder.cpp"
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Byte Coder/byte_encoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_encoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Byte Coder/byte_encoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_encoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o.provides.buil
 
 CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o: ../Sources/Convolutional\ Coder/convolutional_encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o -c "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Convolutional Coder/convolutional_encoder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o -c "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Convolutional Coder/convolutional_encoder.cpp"
 
 CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Convolutional Coder/convolutional_encoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Convolutional Coder/convolutional_encoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Convolutional Coder/convolutional_encoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Convolutional Coder/convolutional_encoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.c
 
 CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o: ../Sources/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o -c /Users/szymon/Documents/Programming/TCM-Simulator/Sources/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o -c /Users/szymon/Documents/CPP/TCM-Simulator/Sources/main.cpp
 
 CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/szymon/Documents/Programming/TCM-Simulator/Sources/main.cpp > CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/szymon/Documents/CPP/TCM-Simulator/Sources/main.cpp > CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/szymon/Documents/Programming/TCM-Simulator/Sources/main.cpp -o CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/szymon/Documents/CPP/TCM-Simulator/Sources/main.cpp -o CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o.provides.build: CMakeFiles/TCM_S
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o: ../Sources/Message\ Coder/message_decoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o -c "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Message Coder/message_decoder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o -c "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_decoder.cpp"
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Message Coder/message_decoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_decoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Message Coder/message_decoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_decoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o.provide
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o: ../Sources/Message\ Coder/message_encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o -c "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Message Coder/message_encoder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o -c "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_encoder.cpp"
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Message Coder/message_encoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_encoder.cpp" > CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/Programming/TCM-Simulator/Sources/Message Coder/message_encoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_encoder.cpp" -o CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o.provide
 
 CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o: ../Sources/ViterbiDecoder/ViterbiDecoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o -c /Users/szymon/Documents/Programming/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o -c /Users/szymon/Documents/CPP/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.cpp
 
 CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/szymon/Documents/Programming/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.cpp > CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/szymon/Documents/CPP/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.cpp > CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.i
 
 CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/szymon/Documents/Programming/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.cpp -o CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/szymon/Documents/CPP/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.cpp -o CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.s
 
 CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o.requires:
 
@@ -249,6 +249,30 @@ CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o.provide
 CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o.provides.build: CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o
 
 
+CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
+CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o: ../Sources/constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o -c /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp
+
+CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp > CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i
+
+CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp -o CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s
+
+CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires:
+
+.PHONY : CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires
+
+CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides.build
+.PHONY : CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides
+
+CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides.build: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o
+
+
 # Object files for target TCM_Simulator
 TCM_Simulator_OBJECTS = \
 "CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o" \
@@ -258,7 +282,8 @@ TCM_Simulator_OBJECTS = \
 "CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o" \
 "CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o" \
 "CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o" \
-"CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o"
+"CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o" \
+"CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o"
 
 # External object files for target TCM_Simulator
 TCM_Simulator_EXTERNAL_OBJECTS =
@@ -271,9 +296,10 @@ TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o
+TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/build.make
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TCM_Simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TCM_Simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TCM_Simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +315,7 @@ CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/main
 CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o.requires
 CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o.requires
 CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.o.requires
+CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires
 
 .PHONY : CMakeFiles/TCM_Simulator.dir/requires
 
@@ -297,6 +324,6 @@ CMakeFiles/TCM_Simulator.dir/clean:
 .PHONY : CMakeFiles/TCM_Simulator.dir/clean
 
 CMakeFiles/TCM_Simulator.dir/depend:
-	cd /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/szymon/Documents/Programming/TCM-Simulator /Users/szymon/Documents/Programming/TCM-Simulator /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/szymon/Documents/CPP/TCM-Simulator /Users/szymon/Documents/CPP/TCM-Simulator /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TCM_Simulator.dir/depend
 

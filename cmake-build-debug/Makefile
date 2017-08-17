@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/szymon/Documents/Programming/TCM-Simulator
+CMAKE_SOURCE_DIR = /Users/szymon/Documents/CPP/TCM-Simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/szymon/Documents/Programming/TCM-Simulator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -312,6 +312,33 @@ Sources/ViterbiDecoder/ViterbiDecoder.cpp.s:
 	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/ViterbiDecoder/ViterbiDecoder.cpp.s
 .PHONY : Sources/ViterbiDecoder/ViterbiDecoder.cpp.s
 
+Sources/constants.o: Sources/constants.cpp.o
+
+.PHONY : Sources/constants.o
+
+# target to build an object file
+Sources/constants.cpp.o:
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o
+.PHONY : Sources/constants.cpp.o
+
+Sources/constants.i: Sources/constants.cpp.i
+
+.PHONY : Sources/constants.i
+
+# target to preprocess a source file
+Sources/constants.cpp.i:
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i
+.PHONY : Sources/constants.cpp.i
+
+Sources/constants.s: Sources/constants.cpp.s
+
+.PHONY : Sources/constants.s
+
+# target to generate assembly for a file
+Sources/constants.cpp.s:
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s
+.PHONY : Sources/constants.cpp.s
+
 Sources/main.o: Sources/main.cpp.o
 
 .PHONY : Sources/main.o
@@ -369,6 +396,9 @@ help:
 	@echo "... Sources/ViterbiDecoder/ViterbiDecoder.o"
 	@echo "... Sources/ViterbiDecoder/ViterbiDecoder.i"
 	@echo "... Sources/ViterbiDecoder/ViterbiDecoder.s"
+	@echo "... Sources/constants.o"
+	@echo "... Sources/constants.i"
+	@echo "... Sources/constants.s"
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"

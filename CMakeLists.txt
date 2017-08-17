@@ -16,7 +16,7 @@ set(SOURCE_FILES
         "Sources/Message Coder/message_decoder.cpp"
         "Sources/Message Coder/message_decoder.h"
         "Sources/Message Coder/message_encoder.cpp"
-        "Sources/Message Coder/message_encoder.h" Sources/ViterbiDecoder/ViterbiDecoder.cpp Sources/ViterbiDecoder/ViterbiDecoder.h)
+        "Sources/Message Coder/message_encoder.h" Sources/ViterbiDecoder/ViterbiDecoder.cpp Sources/ViterbiDecoder/ViterbiDecoder.h Sources/constants.cpp)
 
 
 add_executable(TCM_Simulator ${SOURCE_FILES})

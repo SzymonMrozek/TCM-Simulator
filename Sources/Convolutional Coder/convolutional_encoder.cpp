@@ -11,7 +11,7 @@
 
 
 
-ConvolutionalEncoder::ConvolutionalEncoder(int number_of_states, std::vector<std::vector<int>>* next_stage_matrix, std::vector<std::vector<int>>* output_matrix) : number_of_states_(number_of_states), current_state_(0), next_state_matrix_(next_stage_matrix),
+ConvolutionalEncoder::ConvolutionalEncoder(std::vector<std::vector<int>>* next_stage_matrix, std::vector<std::vector<int>>* output_matrix) : current_state_(0), next_state_matrix_(next_stage_matrix),
     output_matrix_(output_matrix){
         
         output_data_stream_ = new std::vector<int>;
