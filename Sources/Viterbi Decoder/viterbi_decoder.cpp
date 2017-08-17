@@ -2,7 +2,7 @@
 // Created by Szymon Mrozek on 15.08.2017.
 //
 
-#include "ViterbiDecoder.h"
+#include "viterbi_decoder.h"
 
 
 ViterbiDecoder::ViterbiDecoder(std::vector<std::vector<int>> *next_state, std::vector<std::vector<int>> *output,

@@ -13,7 +13,8 @@
 #include "Message Coder/message_decoder.h"
 #include "Convolutional Coder/convolutional_encoder.h"
 #include "Baseband Modulator/baseband_modulator.h"
-#include "ViterbiDecoder/ViterbiDecoder.h"
+#include "Viterbi Decoder/viterbi_decoder.h"
+#include "Noise Adder/noise_adder.h"
 
 std::map<int,std::complex<double>> CONSTELATION;
 std::vector<std::vector<int>> CODER_OUTPUT;
@@ -49,6 +50,10 @@ int main(int argc, const char * argv[]) {
     show(baseband_modulator->getOutputDataStream());
 
     // Additive white gaussian noise
+    auto mean = 0.3;
+    auto variance = 0.3;
+    auto noise_adder = new NoiseAdder(mean,variance);
+    noise_adder->addNoiseToStream(baseband_modulator->getOutputDataStream());
 
 
     // Viterbi decoder

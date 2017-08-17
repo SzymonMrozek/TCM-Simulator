@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -84,11 +84,27 @@ string
 vector
 -
 
-/Users/szymon/Documents/CPP/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.cpp
-ViterbiDecoder.h
-/Users/szymon/Documents/CPP/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.cpp
+noise_adder.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.h
 
-/Users/szymon/Documents/CPP/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.h
+cstdlib
+-
+random
+-
+complex
+-
+vector
+-
+iostream
+-
+
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.cpp
+viterbi_decoder.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.h
+
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.h
 vector
 -
 complex
@@ -119,6 +135,8 @@ Convolutional Coder/convolutional_encoder.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Convolutional Coder/convolutional_encoder.h
 Baseband Modulator/baseband_modulator.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.h
-ViterbiDecoder/ViterbiDecoder.h
-/Users/szymon/Documents/CPP/TCM-Simulator/Sources/ViterbiDecoder/ViterbiDecoder.h
+Viterbi Decoder/viterbi_decoder.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.h
+Noise Adder/noise_adder.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.h
 
