@@ -6,21 +6,27 @@
 
 
 ViterbiDecoder::ViterbiDecoder(std::vector<std::vector<int>> *next_state, std::vector<std::vector<int>> *output,
-                               std::map<int, std::complex<double>> *constelation, const int number_of_states)
-        : next_state_(next_state), output_(output), constelation_(constelation),
-          number_of_states_(number_of_states) {
-    cost_memory_ = new std::vector<std::vector<Path*>*>;
+                               std::map<int, std::complex<double>> *constellation, const int number_of_states) :
+        next_state_(new std::vector<std::vector<int>>(*next_state)),
+        output_(new std::vector<std::vector<int>>(*output)),
+        constellation_(new std::map<int, std::complex<double>>(*constellation)),
+        number_of_states_(number_of_states),
+        cost_memory_ (new std::vector<std::vector<Path*>*>) { }
+
+ViterbiDecoder::~ViterbiDecoder() {
+    delete next_state_;
+    delete output_;
+    delete constellation_;
+    delete cost_memory_;
 }
 
 void ViterbiDecoder::decode(std::vector<std::complex<double>> *input_data_stream) {
 
-    auto minimal_paths = new std::vector<Path*>;
-
     for(auto input_signal : *input_data_stream) {
-        minimal_paths = initMiminalPaths(); // clear temorary minimal paths
-        for (auto current_state = 0; current_state < next_state_->size(); current_state++) {
+        auto minimal_paths = initMinimalPaths(); // clear temporary minimal paths
+        for (int current_state = 0; current_state < next_state_->size(); current_state++) {
             // State analysis
-            for (auto input = 0; input < next_state_->operator[](current_state).size(); input++) {
+            for (int input = 0; input < next_state_->operator[](current_state).size(); input++) {
                 // Possible input in state analysis
                 auto next_state = next_state_->operator[](current_state)[input];
                 auto current_path = new Path();
@@ -85,7 +91,7 @@ std::vector<int>* ViterbiDecoder::getDecodedStreamFromTrellis() {
     return decoded_stream;
 }
 
-std::vector<Path*>* ViterbiDecoder::initMiminalPaths() {
+std::vector<Path*>* ViterbiDecoder::initMinimalPaths() {
 
     auto new_minimal_paths = new std::vector<Path*>();
     for (auto i = 0; i < number_of_states_ ; i++) {
@@ -94,10 +100,12 @@ std::vector<Path*>* ViterbiDecoder::initMiminalPaths() {
     return new_minimal_paths;
 }
 
-double ViterbiDecoder::getEuclideanDistance(std::complex<double> signal_point, int constelation_point) {
-    auto dx = signal_point.real() - constelation_->operator[](constelation_point).real();
-    auto dy = signal_point.imag() - constelation_->operator[](constelation_point).imag();
+double ViterbiDecoder::getEuclideanDistance(std::complex<double> signal_point, int constellation_point) {
+    auto dx = signal_point.real() - constellation_->operator[](constellation_point).real();
+    auto dy = signal_point.imag() - constellation_->operator[](constellation_point).imag();
     return std::abs(std::complex<double>(dx, dy));
 }
+
+
 
 

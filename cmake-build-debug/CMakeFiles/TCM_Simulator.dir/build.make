@@ -249,33 +249,9 @@ CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o.provi
 CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o.provides.build: CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o
 
 
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o: ../Sources/constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o -c /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp
-
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp > CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i
-
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp -o CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s
-
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires:
-
-.PHONY : CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires
-
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires
-	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides.build
-.PHONY : CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides
-
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.provides.build: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o
-
-
 CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
 CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o: ../Sources/Noise\ Adder/noise_adder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o -c "/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.cpp"
 
 CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.i: cmake_force
@@ -297,6 +273,30 @@ CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o.provides: CMa
 CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o.provides.build: CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o
 
 
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o: CMakeFiles/TCM_Simulator.dir/flags.make
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o: ../Sources/analytics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o -c /Users/szymon/Documents/CPP/TCM-Simulator/Sources/analytics.cpp
+
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/szymon/Documents/CPP/TCM-Simulator/Sources/analytics.cpp > CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.i
+
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/szymon/Documents/CPP/TCM-Simulator/Sources/analytics.cpp -o CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.s
+
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.requires:
+
+.PHONY : CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.requires
+
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.provides: CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.provides.build
+.PHONY : CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.provides
+
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.provides.build: CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o
+
+
 # Object files for target TCM_Simulator
 TCM_Simulator_OBJECTS = \
 "CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o" \
@@ -307,8 +307,8 @@ TCM_Simulator_OBJECTS = \
 "CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o" \
 "CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o" \
 "CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o" \
-"CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o" \
-"CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o"
+"CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o" \
+"CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o"
 
 # External object files for target TCM_Simulator
 TCM_Simulator_EXTERNAL_OBJECTS =
@@ -321,8 +321,8 @@ TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o
-TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o
+TCM_Simulator: CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/build.make
 TCM_Simulator: CMakeFiles/TCM_Simulator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/szymon/Documents/CPP/TCM-Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable TCM_Simulator"
@@ -341,8 +341,8 @@ CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/main
 CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o.requires
 CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o.requires
 CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o.requires
-CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o.requires
 CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o.requires
+CMakeFiles/TCM_Simulator.dir/requires: CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o.requires
 
 .PHONY : CMakeFiles/TCM_Simulator.dir/requires
 

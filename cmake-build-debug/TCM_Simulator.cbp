@@ -130,7 +130,13 @@
 		<Unit filename="/Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.h">
 			<Option target="TCM_Simulator"/>
 		</Unit>
-		<Unit filename="/Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp">
+		<Unit filename="/Users/szymon/Documents/CPP/TCM-Simulator/Sources/analytics.cpp">
+			<Option target="TCM_Simulator"/>
+		</Unit>
+		<Unit filename="/Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.h">
+			<Option target="TCM_Simulator"/>
+		</Unit>
+		<Unit filename="/Users/szymon/Documents/CPP/TCM-Simulator/Sources/file_writter.h">
 			<Option target="TCM_Simulator"/>
 		</Unit>
 		<Unit filename="/Users/szymon/Documents/CPP/TCM-Simulator/Sources/main.cpp">

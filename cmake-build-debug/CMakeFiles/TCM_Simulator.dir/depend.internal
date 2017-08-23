@@ -25,8 +25,8 @@ CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o
 CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.cpp
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.h
-CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o
- /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp
+CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o
+ /Users/szymon/Documents/CPP/TCM-Simulator/Sources/analytics.cpp
 CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.h
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_decoder.h
@@ -36,4 +36,6 @@ CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_encoder.h
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.h
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.h
+ /Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.h
+ /Users/szymon/Documents/CPP/TCM-Simulator/Sources/file_writter.h
  /Users/szymon/Documents/CPP/TCM-Simulator/Sources/main.cpp

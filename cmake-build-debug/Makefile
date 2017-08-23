@@ -339,32 +339,32 @@ Sources/Viterbi_Decoder/viterbi_decoder.cpp.s:
 	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.s
 .PHONY : Sources/Viterbi_Decoder/viterbi_decoder.cpp.s
 
-Sources/constants.o: Sources/constants.cpp.o
+Sources/analytics.o: Sources/analytics.cpp.o
 
-.PHONY : Sources/constants.o
+.PHONY : Sources/analytics.o
 
 # target to build an object file
-Sources/constants.cpp.o:
-	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.o
-.PHONY : Sources/constants.cpp.o
+Sources/analytics.cpp.o:
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o
+.PHONY : Sources/analytics.cpp.o
 
-Sources/constants.i: Sources/constants.cpp.i
+Sources/analytics.i: Sources/analytics.cpp.i
 
-.PHONY : Sources/constants.i
+.PHONY : Sources/analytics.i
 
 # target to preprocess a source file
-Sources/constants.cpp.i:
-	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.i
-.PHONY : Sources/constants.cpp.i
+Sources/analytics.cpp.i:
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.i
+.PHONY : Sources/analytics.cpp.i
 
-Sources/constants.s: Sources/constants.cpp.s
+Sources/analytics.s: Sources/analytics.cpp.s
 
-.PHONY : Sources/constants.s
+.PHONY : Sources/analytics.s
 
 # target to generate assembly for a file
-Sources/constants.cpp.s:
-	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/constants.cpp.s
-.PHONY : Sources/constants.cpp.s
+Sources/analytics.cpp.s:
+	$(MAKE) -f CMakeFiles/TCM_Simulator.dir/build.make CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.s
+.PHONY : Sources/analytics.cpp.s
 
 Sources/main.o: Sources/main.cpp.o
 
@@ -426,9 +426,9 @@ help:
 	@echo "... Sources/Viterbi_Decoder/viterbi_decoder.o"
 	@echo "... Sources/Viterbi_Decoder/viterbi_decoder.i"
 	@echo "... Sources/Viterbi_Decoder/viterbi_decoder.s"
-	@echo "... Sources/constants.o"
-	@echo "... Sources/constants.i"
-	@echo "... Sources/constants.s"
+	@echo "... Sources/analytics.o"
+	@echo "... Sources/analytics.i"
+	@echo "... Sources/analytics.s"
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"

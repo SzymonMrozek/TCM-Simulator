@@ -1,24 +1,17 @@
 //
 //  message_decoder.cpp
-//  TCM-Simulatior TEMP
+//  TCM-Simulator
 //
 //  Created by Szymon Mrozek on 17.05.2017.
 //  Copyright © 2017 Szymon Mrozek. All rights reserved.
 //
 
-
-#include <stdio.h>
 #include "message_decoder.h"
 #include <iostream>
 
-MessageDecoder::MessageDecoder(){
-    
-    
-}
+MessageDecoder::MessageDecoder() { }
 
-MessageDecoder::~MessageDecoder(){
-    
-}
+MessageDecoder::~MessageDecoder() { }
 
 void MessageDecoder::decode(std::vector<char>* char_stream){
     

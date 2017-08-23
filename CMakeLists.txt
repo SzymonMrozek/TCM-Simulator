@@ -19,9 +19,9 @@ set(SOURCE_FILES
         "Sources/Message Coder/message_encoder.h"
         "Sources/Viterbi Decoder/viterbi_decoder.cpp"
         "Sources/Viterbi Decoder/viterbi_decoder.h"
-        Sources/constants.cpp
+        Sources/constants.h
         "Sources/Noise Adder/noise_adder.cpp"
-        "Sources/Noise Adder/noise_adder.h")
+        "Sources/Noise Adder/noise_adder.h" Sources/analytics.cpp Sources/file_writter.h)
 
 
 add_executable(TCM_Simulator ${SOURCE_FILES})

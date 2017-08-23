@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.cpp
-stdio.h
--
 baseband_modulator.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Baseband Modulator/baseband_modulator.h
 
@@ -22,8 +20,6 @@ complex
 
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_decoder.cpp
 stdio.h
--
-math.h
 -
 byte_decoder.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Byte Coder/byte_decoder.h
@@ -59,8 +55,6 @@ vector
 -
 
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_decoder.cpp
-stdio.h
--
 message_decoder.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Message Coder/message_decoder.h
 iostream
@@ -91,11 +85,11 @@ noise_adder.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.h
 cstdlib
 -
-random
--
 complex
 -
 vector
+-
+random
 -
 iostream
 -
@@ -112,12 +106,22 @@ complex
 map
 -
 
-/Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.cpp
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/analytics.cpp
+vector
+-
+
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.h
 vector
 -
 map
 -
 complex
+-
+file_writter.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/file_writter.h
+
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/file_writter.h
+fstream
 -
 
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/main.cpp
@@ -139,4 +143,8 @@ Viterbi Decoder/viterbi_decoder.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Viterbi Decoder/viterbi_decoder.h
 Noise Adder/noise_adder.h
 /Users/szymon/Documents/CPP/TCM-Simulator/Sources/Noise Adder/noise_adder.h
+constants.h
+/Users/szymon/Documents/CPP/TCM-Simulator/Sources/constants.h
+string
+-
 
