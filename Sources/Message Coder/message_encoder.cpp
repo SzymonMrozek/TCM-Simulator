@@ -1,6 +1,6 @@
 //
 //  message_encoder.cpp
-//  TCM-Simulatior TEMP
+//  TCM-Simulator
 //
 //  Created by Szymon Mrozek on 17.05.2017.
 //  Copyright © 2017 Szymon Mrozek. All rights reserved.
@@ -10,14 +10,11 @@
 #include "message_encoder.h"
 
 
-MessageEncoder::MessageEncoder(){
-    
-    char_output_stream_ = new std::vector<char>;
-
-}
+MessageEncoder::MessageEncoder() :
+        char_output_stream_(new std::vector<char>) { }
 
 MessageEncoder::~MessageEncoder(){
-    
+
     delete char_output_stream_;
 }
 

@@ -1,6 +1,6 @@
 //
 //  convolutional_encoder.h
-//  TCM-Simulatior TEMP
+//  TCM-Simulator
 //
 //  Created by Szymon Mrozek on 17.05.2017.
 //  Copyright © 2017 Szymon Mrozek. All rights reserved.
@@ -11,31 +11,32 @@
 
 #include <vector>
 
-
-
 class ConvolutionalEncoder{
-    
-    
-    
+
+//    Use this class when you want to convolution encode binary symbols
+//    Constructors parameters are :
+//        - next_state_matrix - vector of vectors representing next state given by input symbol
+//        - output_matrix - vector of vectors represeting output given by input symbol
+//    Call encode, and then getOutputDataStream
+
 public:
     
-    ConvolutionalEncoder(int number_of_states, std::vector<std::vector<int>>* next_stage_matrix,
+    ConvolutionalEncoder(std::vector<std::vector<int>>* next_stage_matrix,
                          std::vector<std::vector<int>>* output_matrix);
+    ~ConvolutionalEncoder();
+
     void encode(std::vector<int>* input_data_stream);
     std::vector<int>* getOutputDataStream();
 
     
 private:
     
-    const int number_of_states_; // Number of encoder states
     int current_state_;
     
     std::vector<std::vector<int>>* next_state_matrix_;
     std::vector<std::vector<int>>* output_matrix_;
     
-    std::vector<int>* input_data_stream_;
     std::vector<int>* output_data_stream_;
-    
 };
 
 

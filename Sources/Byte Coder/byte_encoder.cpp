@@ -1,6 +1,6 @@
 //
 //  byte_encoder.cpp
-//  TCM-Simulatior TEMP
+//  TCM-Simulator
 //
 //  Created by Szymon Mrozek on 17.05.2017.
 //  Copyright © 2017 Szymon Mrozek. All rights reserved.
@@ -12,15 +12,15 @@
 #include <iostream>
 
 
-ByteEncoder::ByteEncoder(std::vector<int>* input_stream, int bit_piece_size) : bit_piece_size_(bit_piece_size),
-        input_stream_(input_stream){
-    
-            char_stream_ = new std::vector<char>;
-    
-    
-    
-}
+ByteEncoder::ByteEncoder(std::vector<int>* input_stream, int bit_piece_size) :
+        bit_piece_size_(bit_piece_size),
+        input_stream_(new std::vector<int>(*input_stream)),
+        char_output_stream_(new std::vector<char>) { }
 
+ByteEncoder::~ByteEncoder() {
+    delete input_stream_;
+    delete char_output_stream_;
+}
 
 void ByteEncoder::encode(){
     
@@ -42,7 +42,7 @@ void ByteEncoder::encode(){
             
             if(byte_indexer == 8){
                 byte_indexer = 0;
-                char_stream_->push_back(static_cast<char>(int_value));
+                char_output_stream_->push_back(static_cast<char>(int_value));
                 int_value = 0;
             }
         }else{
@@ -51,7 +51,7 @@ void ByteEncoder::encode(){
             bits_remaining = 8 - byte_indexer;
             int_value |= (mask[bits_remaining - 1] & input_value) << byte_indexer;
             
-            char_stream_ -> push_back(static_cast<char>(int_value));
+            char_output_stream_ -> push_back(static_cast<char>(int_value));
             byte_indexer = bit_piece_size_ - bits_remaining;
             
             int_value = (input_value & (mask[bit_piece_size_ - 1] << bits_remaining)) >> bits_remaining;
@@ -66,5 +66,6 @@ void ByteEncoder::encode(){
 
 std::vector<char>* ByteEncoder::getCharStream(){
     
-    return char_stream_;
+    return char_output_stream_;
 }
+

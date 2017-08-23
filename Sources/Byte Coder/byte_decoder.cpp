@@ -1,26 +1,27 @@
 //
 //  byte_decoder.cpp
-//  TCM-Simulatior TEMP
+//  TCM-Simulator
 //
 //  Created by Szymon Mrozek on 17.05.2017.
 //  Copyright © 2017 Szymon Mrozek. All rights reserved.
 //
 
 #include <stdio.h>
-#include <math.h>
 #include "byte_decoder.h"
 #include <iostream>
 
 
-ByteDecoder::ByteDecoder(std::vector<char>* input_stream, int bit_piece_size) : bit_piece_size_(bit_piece_size),
-            input_stream_(input_stream){
-                                
-                bit_pieces_stream_ = new std::vector<int>;
-                                
-                            
-                                
+ByteDecoder::ByteDecoder(std::vector<char>* input_stream, int bit_piece_size) :
+        bit_piece_size_(bit_piece_size),
+        input_stream_(new std::vector<char>(*input_stream)),
+        bit_pieces_stream_ (new std::vector<int>) {
 }
 
+ByteDecoder::~ByteDecoder() {
+
+    delete input_stream_;
+    delete bit_pieces_stream_;
+}
 
 void ByteDecoder::decode(){
     
@@ -31,7 +32,7 @@ void ByteDecoder::decode(){
     
     int mask [8] = { 1, 3, 7, 15, 31, 63, 127, 255};
     int inverse_mask[8] = { 0b10000000, 0b11000000, 0b1110000, 0b11110000, 0b11111000, 0b11111100, 0b11111110, 0b11111111};
-    for(auto stream_iterator = 0; stream_iterator < input_stream_->size();){
+    for(int stream_iterator = 0; stream_iterator < input_stream_->size();){
         
         if(byte_indexer + bit_piece_size_ <= 8){
             // bit piece inside of byte

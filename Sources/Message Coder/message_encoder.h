@@ -1,6 +1,6 @@
 //
 //  message_encoder.h
-//  TCM-Simulatior TEMP
+//  TCM-Simulator
 //
 //  Created by Szymon Mrozek on 17.05.2017.
 //  Copyright © 2017 Szymon Mrozek. All rights reserved.
@@ -12,9 +12,7 @@
 #include <string>
 #include <vector>
 
-
 class MessageEncoder{
-    
     
 public:
     
