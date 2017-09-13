@@ -16,7 +16,7 @@ end
 
 grid on
 ylim([ 10^(-3), 1]);
-legend('Koder 1/2','Koder 2/3','koder 3/4');
+legend('Koder 1/2','Koder 2/3','Koder 3/4');
 xlabel('SNR [dB]');
 ylabel('BER');
 title('Zale¿no¶æ BER od SNR');

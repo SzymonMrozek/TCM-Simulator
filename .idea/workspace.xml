@@ -12,48 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b28727-2321-4b9f-84fe-3cf384903d85" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Baseband_Modulator/baseband_modulator.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_decoder.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Byte_Coder/byte_encoder.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Convolutional_Coder/convolutional_encoder.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_decoder.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Message_Coder/message_encoder.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Noise_Adder/noise_adder.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/Viterbi_Decoder/viterbi_decoder.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/analytics.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/Sources/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/TCM_Simulator" afterPath="$PROJECT_DIR$/cmake-build-debug/TCM_Simulator" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/constants.h" afterPath="$PROJECT_DIR$/Sources/constants.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/matlab.m" afterPath="$PROJECT_DIR$/cmake-build-debug/matlab.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/BER" afterPath="$PROJECT_DIR$/cmake-build-debug/BER" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCM_Simulator.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/TCM_Simulator.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/TCM_Simulator.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/SNR" afterPath="$PROJECT_DIR$/cmake-build-debug/SNR" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,8 +76,8 @@
       <file leaf-file-name="constants.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sources/constants.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="140" column="16" lean-forward="true" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
+            <state relative-caret-position="245">
+              <caret line="136" column="32" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
               <folding>
                 <element signature="e#120#137#0" expanded="true" />
               </folding>
@@ -460,12 +421,12 @@
       <workItem from="1503434505779" duration="7566000" />
       <workItem from="1503513915458" duration="3916000" />
       <workItem from="1505323333194" duration="130000" />
-      <workItem from="1505327593310" duration="2504000" />
+      <workItem from="1505327593310" duration="2626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55543000" />
+    <option name="totallyTimeSpent" value="55665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,7 +447,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32534248" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32534248" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -871,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/constants.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="140" column="16" lean-forward="true" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
+        <state relative-caret-position="245">
+          <caret line="136" column="32" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
           <folding>
             <element signature="e#120#137#0" expanded="true" />
           </folding>
