@@ -1,0 +1,13 @@
+
+close all 
+clear
+
+numberOfCoders = 2; 
+
+for i = 1 : numberOfCoders
+    snrFile = fopen('SNR','r');
+    berFile = fopen('BER','r');
+    snr = fscanf(snrFile,'%f');
+    be = fscanf(snrFile,'%f');
+
+end

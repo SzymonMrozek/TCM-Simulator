@@ -98,6 +98,44 @@ void initAndLoad(int coder_set){
         }
 
         case (ThreeInFourOut): {
+            auto _16qam_map = new std::map<int,std::complex<double>>;
+            std::vector<std::vector<int>> three_in_four_out_output;
+            std::vector<std::vector<int>> three_in_four_out_next_state;
+            auto three_in_four_out_number_of_states = 4;
+
+            _16qam_map -> operator[](0) = std::complex<double>(1.0, -1.0);
+            _16qam_map -> operator[](1) = std::complex<double>(-1.0, -1.0);
+            _16qam_map -> operator[](2) = std::complex<double>(3.0, -3.0);
+            _16qam_map -> operator[](3) = std::complex<double>(-3.0, -3.0);
+            _16qam_map -> operator[](4) = std::complex<double>(-3.0, -1.0);
+            _16qam_map -> operator[](5) = std::complex<double>(3.0, -1.0);
+            _16qam_map -> operator[](6) = std::complex<double>(-1.0, -3.0);
+            _16qam_map -> operator[](7) = std::complex<double>(1.0, -3.0);
+            _16qam_map -> operator[](8) = std::complex<double>(-3.0, 3.0);
+            _16qam_map -> operator[](9) = std::complex<double>(3.0, 3.0);
+            _16qam_map -> operator[](10) = std::complex<double>(-1.0, 1.0);
+            _16qam_map -> operator[](11) = std::complex<double>(1.0, 1.0);
+            _16qam_map -> operator[](12) = std::complex<double>(1.0, 3.0);
+            _16qam_map -> operator[](13) = std::complex<double>(-1.0, 3.0);
+            _16qam_map -> operator[](14) = std::complex<double>(3.0, 1.0);
+            _16qam_map -> operator[](15) = std::complex<double>(-3.0, 1.0);
+
+            three_in_four_out_output.push_back({0,2,4,6,8,10,12,14});
+            three_in_four_out_output.push_back({2,0,6,4,10,8,14,12});
+            three_in_four_out_output.push_back({1,3,5,7,9,11,13,15});
+            three_in_four_out_output.push_back({3,1,7,5,11,9,15,13});
+
+            three_in_four_out_next_state.push_back({0,2,0,2,0,2,0,2});
+            three_in_four_out_next_state.push_back({0,2,0,2,0,2,0,2});
+            three_in_four_out_next_state.push_back({1,3,1,3,1,3,1,3});
+            three_in_four_out_next_state.push_back({1,3,1,3,1,3,1,3});
+
+            CONSTELLATION = *_16qam_map;
+            CODER_NEXT_STATE = three_in_four_out_next_state;
+            CODER_OUTPUT = three_in_four_out_output;
+            NUMBER_OF_STATES = three_in_four_out_number_of_states;
+            NUMBER_OF_INPUTS = 3;
+            VARIANCE = 5.3333;
             break;
         }
         default:
