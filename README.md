@@ -6,3 +6,4 @@ Or just by running matlab script to get output plot
 
 Example result of simulation : 
 
+![alt text](https://raw.githubusercontent.com/SzymonMrozek/TCM-Simulator/master/cmake-build-debug/Result.jpg)
