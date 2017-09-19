@@ -21,7 +21,7 @@ set(SOURCE_FILES
         "Sources/Viterbi Decoder/viterbi_decoder.h"
         Sources/constants.h
         "Sources/Noise Adder/noise_adder.cpp"
-        "Sources/Noise Adder/noise_adder.h" Sources/analytics.cpp Sources/file_writter.h)
+        "Sources/Noise Adder/noise_adder.h" Sources/analytics.cpp Sources/file_writter.h Sources/seeds_handler.cpp)
 
 
 add_executable(TCM_Simulator ${SOURCE_FILES})

@@ -15,7 +15,7 @@ class NoiseAdder {
 
 public:
 
-    NoiseAdder(double mean, double var);
+    NoiseAdder(double mean, double var, int seed = 0);
     void addNoiseToStream(std::vector<std::complex<double>>* input_stream);
     std::vector<std::complex<double>>* getNoisedStream();
 private:

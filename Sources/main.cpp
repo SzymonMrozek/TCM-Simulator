@@ -30,11 +30,14 @@ bool SHOULD_TRUNCATE = false;
 bool IS_RUNNING_FROM_SCRIPT = false;
 int CODER_SET = 1;
 double SNR = 0.0;
+int SEED_INDEX = 0;
 
 // MARK: - Global functions
 extern double getBER(std::vector<int>* original_stream, std::vector<int>* recieved_stream);
 int processRunArguments(int argc, const char * argv[]);
 template <typename T> void show(std::vector<T>*);
+int getSeedForIteration(int iteration);
+void saveSeedFile();
 
 int main(int argc, const char * argv[]) {
 
@@ -66,7 +69,7 @@ int main(int argc, const char * argv[]) {
 
     // Additive white gaussian noise
     auto noise_variance = VARIANCE / pow(10.0,SNR/10.0);
-    auto noise_adder = new NoiseAdder(0.0,noise_variance);
+    auto noise_adder = new NoiseAdder(0.0,noise_variance,getSeedForIteration(SEED_INDEX));
     noise_adder->addNoiseToStream(baseband_modulator->getOutputDataStream());
 //    show(noise_adder->getNoisedStream());
 
@@ -120,7 +123,7 @@ int processRunArguments(int argc, const char * argv[]) {
         return 1;
     }
 
-    if(argc >= 6) {
+    if(argc >= 7) {
         CODER_SET = std::stoi(argv[1]);
         if ( CODER_SET < 1 || CODER_SET > 3 ) {
             std::cout << "WRONG CODER SET !!! " << std::endl;
@@ -133,8 +136,9 @@ int processRunArguments(int argc, const char * argv[]) {
 
         SNR = SNR_start + double(SNR_index)*(double(SNR_end - SNR_start)/double(SNR_values_count));
         IS_RUNNING_FROM_SCRIPT = true;
-        if(argc == 7) {
-            SHOULD_TRUNCATE = std::string(argv[6]) == "yes";
+        SEED_INDEX = std::stoi(argv[6]);
+        if(argc == 8) {
+            SHOULD_TRUNCATE = std::string(argv[7]) == "yes";
         }
     }
     return 0;
@@ -147,3 +151,9 @@ template <typename T> void show(std::vector<T>* array) {
     std::cout<<std::endl;
     std::cout<<std::endl;
 }
+
+
+
+
+
+

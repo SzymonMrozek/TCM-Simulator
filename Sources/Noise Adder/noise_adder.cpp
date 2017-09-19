@@ -4,7 +4,7 @@
 
 #include "noise_adder.h"
 
-NoiseAdder::NoiseAdder(double mean, double var) : mean_(mean), var_(var), engine_(new std::default_random_engine()), distribution_(new std::normal_distribution<double>(mean_, var_)) { }
+NoiseAdder::NoiseAdder(double mean, double var, int seed) : mean_(mean), var_(var), engine_(new std::default_random_engine(seed)), distribution_(new std::normal_distribution<double>(mean_, var_)) { }
 
 void NoiseAdder::addNoiseToStream(std::vector<std::complex<double>> *input_stream) {
 
