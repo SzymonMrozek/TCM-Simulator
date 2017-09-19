@@ -4,11 +4,11 @@
 SeedIndex=$1
 SNRStart=-6.0
 SNREnd=10.0
-SNRNumberOfPoints=1000
+SNRNumberOfPoints=200
 
 ./TCM_Simulator 1 $SNRStart $SNREnd $SNRNumberOfPoints 0 $SeedIndex yes
 
-for ITERATOR in {1..999}
+for ITERATOR in {1..199}
 do
 	./TCM_Simulator 1 $SNRStart $SNREnd $SNRNumberOfPoints $ITERATOR $SeedIndex
 done
